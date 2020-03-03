@@ -14,7 +14,9 @@ Islandora is not a complete digital preservation solution. (Some would argue tha
    * This module, plus the Riprap microservice, enable periodic fixity checking on Islandora media.
 * Islandora Bagger
    * This tool, plus the Islandora Bagger Integration module, can produce Bags for Islandora objects and media.
- * Islandora PREMIS
+* Islandora PREMIS
     * This module can combine data from a number of sources (including Ripap and FITS) and provide that data such that it conforms with the PREMIS preservation metadata standard.
+* Media Formats Reports
+   * Provides a graphical breakdown of the media types (MIME type or PRONOM PUID) in use in an Islandora repository.
 
 Islandora can work with other systems that support digital preservation. For example, it is possible to integrate Islandora and Archivematica. One type of integration is to have Islandora generate Bags that are then used to [transfer the content into Archivematica](https://www.archivematica.org/en/docs/archivematica-1.10/user-manual/transfer/bags/#bags) for further processing.
