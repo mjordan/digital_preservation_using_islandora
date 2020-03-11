@@ -50,7 +50,9 @@ and at the repository level:
 
 ![Fixity check failures report](docs/images/fixity_events_report_failures.png)
 
-You do not want to see a chart with so many fixity check failures! Ideally, Riprap would not detect any fixity check failures. If that is the case, Islandora Riprap will tell you your storage is working as intended.
+You do not want to see a chart with so many fixity check failures! Ideally, Riprap would not detect any fixity check failures. If that is the case, Islandora Riprap will tell you your storage is working as intended:
+
+![Fixity check failures report](docs/images/fixity_events_report_no_failures.png)
 
 ### Islandora Bagger
 
