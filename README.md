@@ -31,7 +31,7 @@ In addition to supporting robust digital asset mananagment, Islandora's digital 
 
 ### Islandora Riprap
 
-![Media fixity check status])(ocs/images/islandora_riprap_details.png)
+![Media fixity check status]](ocs/images/islandora_riprap_details.png)
 
 ![Fixity check failures report](docs/images/fixity_events_report_failures.png)
 
