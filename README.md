@@ -4,18 +4,14 @@
 
 As a digital assets management system (DAMS), Islandora provides a wide range of functionality, from ingest to storage to management to presentation. Islandora offers a number of digital preservation capabilites that add value to its storage and management functions in particular that distinguish it from other digital asset management platforms. Those tools include:
 
-* Fedora repository
-   * The Fedora repository provides the storage layer for Islandora, and Islandora leverages a number of Fedora's features to provide digital preseration services.
-* Islandora FITS
-   * This module uses the FITS characterization tool to derive technical and format information from Islandora media.
-* Islandora Riprap
-   * This module, plus the Riprap microservice, enable periodic fixity checking on Islandora media.
-* Islandora Bagger
-   * This tool, plus the Islandora Bagger Integration module, can produce Bags for Islandora objects and media.
-* Islandora PREMIS
-    * This module can combine data from a number of sources (including Ripap and FITS) and provide that data such that it conforms with the PREMIS preservation metadata standard.
-* Media Formats Reports
-   * Provides a graphical breakdown of the media types (MIME type or PRONOM PUID) in use in an Islandora repository.
+| Feature  | Purpose                         |
+--------------- |------------------------------------                           |
+| Fedora repository | Provides the storage layer for Islandora, and Islandora leverages a number of Fedora's features to provide digital preseration services. |
+| Islandora FITS | Uses the FITS characterization tool to derive technical and format information from Islandora media.
+| Riprap | This tool, plus the accompanying Islandora Riprap Drupal module, enables periodic fixity checking on Islandora media.
+| Islandora Bagger | Command-line tool that produces Bags for Islandora objects and media. Accompanying Islandora Bagger Integration module. |
+| Islandora PREMIS | Combines data from a number of sources (including Ripap and FITS) and provide that data such that it conforms with the PREMIS preservation metadata standard. |
+| Media Formats Reports | Provides a graphical breakdown of the media types (MIME type or PRONOM PUID) in use in an Islandora repository. |
 
 These features not only add value to Islandora's storage and managment functionality, they enable it to integrate with other systems that specialize in digital preservation. For example, it is possible to integrate Islandora and Archivematica. One type of integration is to have Islandora generate Bags that are then used to [transfer the content into Archivematica](https://www.archivematica.org/en/docs/archivematica-1.10/user-manual/transfer/bags/#bags) for further processing.
 
@@ -94,6 +90,6 @@ An important aspect of repository management is being able to determine what typ
 
 ![Media formats report](docs/images/media_report.png)
 
-## Islandora's Place in Your Institution's Digital Preservation Activity
+## Islandora's Place in Your Institution's Digital Preservation Strategy
 
 [...]
