@@ -1,4 +1,4 @@
-# Digital Preservation using Islandora 8
+# Digital Preservation Using Islandora 8
 
 ## Overview
 
@@ -7,7 +7,7 @@ As a digital assets management system (DAMS), Islandora provides a wide range of
 | Feature  | Purpose                         |
 --------------- |------------------------------------                           |
 | Fedora repository | Provides the storage layer for Islandora, and Islandora leverages a number of Fedora's features to provide digital preseration services. |
-| Islandora FITS | Uses the FITS characterization tool to derive technical and format information from Islandora media.
+| Islandora FITS | Drupal module that uses the FITS characterization tool to derive technical and format information from Islandora media.
 | Riprap | This tool, plus the accompanying Islandora Riprap Drupal module, enables periodic fixity checking on Islandora media.
 | Islandora Bagger | Command-line tool that produces Bags for Islandora objects and media. Accompanying Islandora Bagger Integration module. |
 | Islandora PREMIS | Combines data from a number of sources (including Ripap and FITS) and provide that data such that it conforms with the PREMIS preservation metadata standard. |
@@ -17,7 +17,7 @@ These features not only add value to Islandora's storage and managment functiona
 
 ## Islandora and Digital Preservation Policies
 
-In addition to supporting robust digital asset mananagment, Islandora's digital preservation features can be used to implement technical aspects of institutional digital preservation policies. "Policy" in this context is a formal statement of what an institution is doing to ensure long-term access to its digital assets. "Digital preservation" is the set of actions applied to digital assets to implement a policy. Your digital preservation policy says what you are doing (often in the form of "action plans"), and Islandora's digital preservation features enable you to do what you say you are doing. York University's [digital preservation policy](https://digital.library.yorku.ca/tags/digital-preservation-policy) and [action plans](https://digital.library.yorku.ca/tags/preservation-action-plan) are an excellent example to emulate.
+In addition to supporting robust digital asset mananagment, Islandora's digital preservation features can be used to implement technical aspects of institutional digital preservation policies. "Policy" in this context is a formal statement of what an institution is doing to ensure long-term access to its digital assets. Digital preservation stratgy comes into play at an even higher level, but policies are where an institutions expresses what its says it is doing to safeguard future access to its digital assets of enduring value. Your digital preservation policy says what you are doing (often in the form of "action plans"), and Islandora's digital preservation features enable you to do what you say you are doing. York University's [digital preservation policy](https://digital.library.yorku.ca/tags/digital-preservation-policy) and [action plans](https://digital.library.yorku.ca/tags/preservation-action-plan) are an excellent example to emulate.
 
 Digital preservation's relationship to standard backups is that digital preservation relies on robust backups but does not replace them. Neither do robust backups replace digital preservation. Digital preservation adds value to robust backups. Also, standard backup processes tend to focus on short-term access to files (generally in 1 week, 1 month, 3 month, and 1 year periods, or some variation of those timespans). Digital preservation has a much longer view on ensuring that content remains accessible. If you want to ensure that your digital assets are accessible in 50 years, standard backups are not going to be much help.
 
@@ -92,4 +92,4 @@ An important aspect of repository management is being able to determine what typ
 
 ## Islandora's Place in Your Institution's Digital Preservation Strategy
 
-[...]
+Digital preservation requires a strategy, not just a set of tools. Policies, and institutional commitment in the form of resources, to support those policies is the foundation for a digital preservation strategy. Insitutions that use Islandora 8 as a DAMS have a robust set of tools to support their digital preservation strategies.  
