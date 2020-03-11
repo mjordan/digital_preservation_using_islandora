@@ -21,9 +21,9 @@ These features not only add value to Islandora's storage and managment functiona
 
 ## Islandora and Digital Preservation Policies
 
-In addition to supporting robust digital asset mananagment, Islandora's digital preservation features can be used to implement technical aspects of institutional digital preservation policies. "Policy" in this context is a formal statement of what an institution is doing to ensure long-term access to its digital assets. "Digital preservation" is the set of actions applied to digital assets to implement a policy. Your digital preservation policy says what you are doing (often in the form of "action plans"), and Islandora's digital preservation features enable you to do what you say you are doing. York University's [digital preservation policy](https://digital.library.yorku.ca/tags/digital-preservation-policy) and [action plans](https://digital.library.yorku.ca/tags/preservation-action-plan).
+In addition to supporting robust digital asset mananagment, Islandora's digital preservation features can be used to implement technical aspects of institutional digital preservation policies. "Policy" in this context is a formal statement of what an institution is doing to ensure long-term access to its digital assets. "Digital preservation" is the set of actions applied to digital assets to implement a policy. Your digital preservation policy says what you are doing (often in the form of "action plans"), and Islandora's digital preservation features enable you to do what you say you are doing. York University's [digital preservation policy](https://digital.library.yorku.ca/tags/digital-preservation-policy) and [action plans](https://digital.library.yorku.ca/tags/preservation-action-plan) are an excellent example to emulate.
 
-### This is Important! Read This!
+### Read This! This is Important!
 
 Notice the above phrase "technical aspects of institutional digital preservation policies". Digital preservation succeeds in direct proportion to institutional committment, and will not work in the absence of active committment to make an institution's digital assets accessible in the future. Simply turning on Islandora's digital presrvation features does not mean an institution is doing digital preservation. The same can be said for any platform or tool that supports digital preservation - just turning it on it not enough. The technical capabilities Islandora (or Archivematica for that matter) provides only enable institutions to implement their digital preservation policies and action plans. That's all they do. It is up to institutions to ensure (via adequate staffing levels, financial planning, and effective collaborations with other institutions) that every aspect of their policies do what they are supposed to.
 
@@ -46,7 +46,7 @@ FITS provides a general framework for integrating a number of specialized tools.
 
 ### Islandora Riprap
 
-Riprap is a general fixity validation tool that is easy to integrate with Islandora repositories via the Islandora Riprap module. Riprap periodically validates the fixity of media, but the Drupal module provides users with reports that allow them to monitor fixity information at the object level:
+Riprap is a general (not specific to Islandora) fixity validation tool that is easy to integrate with Islandora repositories via the Islandora Riprap module. Riprap periodically validates the fixity of media, but the Drupal module provides users with reports that allow them to monitor fixity information at the object level:
 
 ![Media fixity check status](docs/images/islandora_riprap_details.png)
 
