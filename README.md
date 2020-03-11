@@ -50,6 +50,8 @@ and at the repository level:
 
 ![Fixity check failures report](docs/images/fixity_events_report_failures.png)
 
+You do not want to see a chart with so many fixity check failures! Ideally, Riprap would not detect any fixity check failures. If that is the case, Islandora Riprap will tell you your storage is working as intended.
+
 ### Islandora Bagger
 
 Islandora Bagger, as its name suggests, generates [Bags](https://en.wikipedia.org/wiki/BagIt) for Islandora objects. It is a command-line tool suitable for integration in preservation workflows, but an accompanying Drupal module provides end users with the ability to create Bags on demand and also for administrative users to create Drupal Contexts which generate Bags in response to system events. A typical Bag for an Islandora object could look like this (depending on the options specified when the Bag was created):
@@ -74,6 +76,8 @@ Islandora Bagger, as its name suggests, generates [Bags](https://en.wikipedia.or
 ```
 
 ### Islandora PREMIS
+
+
 
 ### Media Formats Reports
 
