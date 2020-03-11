@@ -2,7 +2,7 @@
 
 ## Overview
 
-As a digital assets management platform (DAMS), Islandora provides a wide variety of functionality, from ingest to storage to management to presentation. While ingest is a prerequisite for storage, and presentation is prerequisite for access, Islandora offers a number of digital preservation capabilites that add value to its storage and management functions and that distinguish it from other digital asset management platforms. Those tools include:
+As a digital assets management system (DAMS), Islandora provides a wide range of functionality, from ingest to storage to management to presentation. Islandora offers a number of digital preservation capabilites that add value to its storage and management functions in particular that distinguish it from other digital asset management platforms. Those tools include:
 
 * Fedora repository
    * The Fedora repository provides the storage layer for Islandora, and Islandora leverages a number of Fedora's features to provide digital preseration services.
@@ -23,7 +23,9 @@ These features not only add value to Islandora's storage and managment functiona
 
 In addition to supporting robust digital asset mananagment, Islandora's digital preservation features can be used to implement technical aspects of institutional digital preservation policies. "Policy" in this context is a formal statement of what an institution is doing to ensure long-term access to its digital assets. "Digital preservation" is the set of actions applied to digital assets to implement a policy. Your digital preservation policy says what you are doing (often in the form of "action plans"), and Islandora's digital preservation features enable you to do what you say you are doing. York University's [digital preservation policy](https://digital.library.yorku.ca/tags/digital-preservation-policy) and [action plans](https://digital.library.yorku.ca/tags/preservation-action-plan).
 
-> Notice the above phrase "technical aspects of institutional digital preservation policies". Digital preservation is not primarily a technical task. It is based on institutional committment, and will not work in the absence of institutional committment to make digital assets accessible in the future. Simply turning on Islandora's digital presrvation features does not mean an institution is doing digital preservation. The same can be said for any platform or tool that supports digital preservation - just turning it on it not enough. The technical capabilities Islandora (or Archivematica for that matter) provides only enable institutions to implement their digital preservation policies and action plans. That's all they do. It is up to institutions to ensure (via adequate staffing levels, financial planning, and effective collaborations with other institutions) that every aspect of their policies do what they are supposed to.
+### This is Important! Read This!
+
+Notice the above phrase "technical aspects of institutional digital preservation policies". Digital preservation succeeds in direct proportion to institutional committment, and will not work in the absence of active committment to make an institution's digital assets accessible in the future. Simply turning on Islandora's digital presrvation features does not mean an institution is doing digital preservation. The same can be said for any platform or tool that supports digital preservation - just turning it on it not enough. The technical capabilities Islandora (or Archivematica for that matter) provides only enable institutions to implement their digital preservation policies and action plans. That's all they do. It is up to institutions to ensure (via adequate staffing levels, financial planning, and effective collaborations with other institutions) that every aspect of their policies do what they are supposed to.
 
 ## A Closer Look at Islandora's Digital Preservation Features
 
@@ -89,3 +91,7 @@ An important aspect of repository management is being able to determine what typ
 
 
 ![Media formats report](docs/images/media_report.png)
+
+## Islandora's Place in Your Institution's Digital Preservation Activity
+
+[...]
