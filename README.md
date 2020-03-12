@@ -2,14 +2,14 @@
 
 ## Overview
 
-As a digital assets management system (DAMS), Islandora provides a wide range of functionality, from ingest to storage to management to presentation. Islandora offers a number of digital preservation features that add value to its storage and management functions in particular. Those features include:
+As a digital asset management system (DAMS), Islandora provides a wide range of functionality, from ingest to storage to management to presentation. Islandora offers a number of digital preservation features that add value to its storage and management functions in particular. Those features include:
 
-| Feature  | Purpose                         |
+| Feature  | Functionality                         |
 --------------- |------------------------------------                           |
 | Fedora repository | Provides a robust storage layer for Islandora. |
-| Islandora FITS | Drupal module that uses the FITS characterization tool to derive technical and format information from Islandora media.
-| Riprap | In conjuction with the accompanying Islandora Riprap Drupal module, enables periodic fixity checking on Islandora media.
-| Islandora Bagger | Command-line tool that produces Bags for Islandora objects and media. The accompanying Islandora Bagger Integration module provides additional functionality. |
+| Islandora FITS | Uses the FITS characterization tool to derive technical and format information from Islandora media.
+| Islandora Riprap | Enables periodic fixity checking on Islandora media using the Riprap fixity validation service.
+| Islandora Bagger | Generates Bags for Islandora objects and media. The accompanying Islandora Bagger Integration module provides additional functionality. |
 | Islandora PREMIS | Combines data from a number of sources (including Ripap and FITS) such that it conforms with the PREMIS preservation metadata standard. |
 | Media Formats Reports | Provides a graphical breakdown of the media types (MIME type or PRONOM PUID) in use in an Islandora repository. |
 
@@ -75,8 +75,6 @@ Sudden (or grandual) increases in the number of fixity event failures, or repeat
 │   ├── media.jsonld
 │   ├── node.json
 │   ├── node.jsonld
-│   ├── metadata
-│   │   └── MODS.xml
 │   ├── metadata.csv
 │   ├── media_use_summary.tsv
 │   └── node.turtle.rdf
@@ -102,7 +100,16 @@ The [Islandora PREMIS](https://github.com/mjordan/islandora_premis) module aggre
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix schema: <http://schema.org/> .
 
-<http://127.0.0.1:8080/fcrepo/rest/2019-12/Evaluation and Effectiveness of Digital Preservation.pdf>
+<http://localhost:8000/node/1>
+  a <http://pcdm.org/models#Object>, <https://schema.org/DigitalDocument>, <http://www.loc.gov/premis/rdf/v3/IntellectualEntity> ;
+  dc:extent "1 item"^^xsd:string ;
+  dc:title "An interesting document!"@en ;
+  schema:author <http://localhost:8000/user/1> ;
+  schema:dateCreated "2019-12-09T14:39:07+00:00"^^xsd:dateTime ;
+  schema:dateModified "2019-12-09T14:41:25+00:00"^^xsd:dateTime ;
+  schema:sameAs <http://localhost:8000/node/1> .
+
+<http://127.0.0.1:8080/fcrepo/rest/2019-12/I am an interesting document.pdf>
   a premisobject:File ;
   premis:size "534450" ;
   premis:compositionLevel 0 ;
@@ -114,15 +121,6 @@ The [Islandora PREMIS](https://github.com/mjordan/islandora_premis) module aggre
   rdf:value "6933a46f55f27a62689406ea33c650b1c16d6268ee81f6c6a2a89c63aeec9d27" ;
   dc:created "2019-12-21T15:41:00-0600" ;
   premis:outcome "success" .
-
-<http://localhost:8000/node/1>
-  a <http://pcdm.org/models#Object>, <https://schema.org/DigitalDocument>, <http://www.loc.gov/premis/rdf/v3/IntellectualEntity> ;
-  dc:extent "1 item"^^xsd:string ;
-  dc:title "A document!"@en ;
-  schema:author <http://localhost:8000/user/1> ;
-  schema:dateCreated "2019-12-09T14:39:07+00:00"^^xsd:dateTime ;
-  schema:dateModified "2019-12-09T14:41:25+00:00"^^xsd:dateTime ;
-  schema:sameAs <http://localhost:8000/node/1> .
 
 <http://localhost:8000/user/1> a schema:Person .
 <324bd1b9-0a38-400d-bd07-2026801e1040>
@@ -161,4 +159,4 @@ An important aspect of repository management is being able to determine what typ
 
 ## Islandora's Place in Your Institution's Digital Preservation Strategy
 
-Insitutions that use Islandora 8 as a DAMS have a robust set of tools to support these higher level aspects of digital preservation, but using Islandora's preservation capabilities in the absence of a digital preservation policy is not enough to ensure enduring access to an institution's digital assets. Digital preservation requires a strategy, not just a set of tools. A strategy includes policies, and, just as important, institutional commitment in the form of staff and financial resources to support those policies. 
+Insitutions that use Islandora 8 as a DAMS have a robust set of tools, but using Islandora's preservation capabilities in the absence of a digital preservation policy is not enough to ensure enduring access to an institution's digital assets. Digital preservation requires a strategy, not just a set of tools. A digital preservation strategy implmements policies, and, just as importantly, institutional commitment in the form of staff and financial resources to support those policies. 
