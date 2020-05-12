@@ -11,7 +11,7 @@ As a digital asset management system (DAMS), Islandora provides a wide range of 
 | Islandora Riprap | Enables periodic fixity checking on Islandora media using the Riprap fixity validation service.
 | Islandora Bagger | Generates Bags for Islandora objects and media. The accompanying Islandora Bagger Integration module provides additional functionality. |
 | Islandora PREMIS | Combines data from a number of sources (including Ripap and FITS) such that it conforms with the PREMIS preservation metadata standard. |
-| Media Formats Reports | Provides a graphical breakdown of the media types (MIME type or PRONOM PUID) in use in an Islandora repository. |
+| Islandora Repository Reports | Provides a graphical breakdown of the media types (MIME type or PRONOM PUID) in use in an Islandora repository, plus some other useful reports. |
 
 These features not only add value to Islandora's storage and managment functionality, they enable Islandora to integrate with other systems that specialize in digital preservation. For example, it is possible to:
 
