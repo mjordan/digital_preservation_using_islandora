@@ -150,9 +150,9 @@ The [Islandora PREMIS](https://github.com/mjordan/islandora_premis) module aggre
 
 Islandora PREMIS is currently the least mature of Islandora's preservation features, but as more sources of data become available, they can be integrated into Islandora's PREMIS RDF to present a more complete expression of objects' preservation lifecycle within Islandora.
 
-### Media Formats Reports
+### Islandora Repository Reports
 
-An important aspect of repository management is being able to determine what types of files are in a repository. This information is invaluable when determining how many files in the repository are in formats that are at some risk (e.g., the formats are becoming less commonly used and are therefore at risk of becoming obsolete), or when planning for format migrations. The [Media Formats Reports](https://github.com/mjordan/media_formats_reports) module provides this information using multiple definitions of "format", specifically, [MIME type](https://en.wikipedia.org/wiki/Media_type) and [PRONOM PUID](https://en.wikipedia.org/wiki/PRONOM). It presents this information as a pie chart that allows repository administrators to see at a glance how many files of each format exist in their repositories:
+An important aspect of repository management is being able to determine what types of files are in a repository. This information is invaluable when determining how many files in the repository are in formats that are at some risk (e.g., the formats are becoming less commonly used and are therefore at risk of becoming obsolete), or when planning for format migrations. The [Islandora Repository Reports](https://github.com/mjordan/islandora_repository_reports) module provides this information using multiple definitions of "format", specifically, [MIME type](https://en.wikipedia.org/wiki/Media_type) and [PRONOM PUID](https://en.wikipedia.org/wiki/PRONOM). It presents this information as a pie chart that allows repository administrators to see at a glance how many files of each format exist in their repositories:
 
 
 ![Media formats report](docs/images/media_report.png)
