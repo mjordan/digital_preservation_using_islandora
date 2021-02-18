@@ -18,7 +18,7 @@ These features not only add value to Islandora's storage and managment functiona
 * integrate Islandora and Archivematica by having Islandora generate Bags that are then used to [transfer the content into Archivematica](https://www.archivematica.org/en/docs/archivematica-1.10/user-manual/transfer/bags/#bags) for further processing.
 * generate Bags for Islandora objects that are then moved to distributed preservation storage services such as DuraCloud or WestVault. These Bags can include a record (using PREMIS) of all of the fixity checks performed on media associated with objects and can contain structural metadata linking each object to its parent object.
 
-The only major digital preservation feature that Islandora does not currently deliver is normalization to preservation-friendly file formats. But, as the "Normalization" section at the end of this guide explains, adding that feature to Islandora is possible.
+The only major digital preservation functionality that Islandora does not currently deliver is normalization to preservation-friendly file formats. But, as the "Normalization" section at the end of this guide explains, adding that feature to Islandora is possible.
 
 ## Islandora and Digital Preservation Policies
 
