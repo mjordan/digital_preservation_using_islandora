@@ -36,7 +36,7 @@ Notice the phrase in the first paragraph in this section "technical aspects of i
 
 [Fedora](https://duraspace.org/fedora/) provides a robust storage layer for Islandora. While Drupal also provides its own storage capabilities in its public and private filesystems, and also provides integration with a wide variety of external storage platforms such as cloud providers, most Islandora repositories will want to use Fedora to store original files and any other files of enduring value. Easily reproduced dertivatives, such as thumbnails, are probably not worth storing in Fedora, but exactly what media get stored in Drupal and what media get stored in Fedora is configurable by Islandora administrators.
 
-Fedora also provides additional services that support Islandora's digital preservation capabilities, such as checksum generation, which is used by Islandora Riprap (more on that below).
+The principle benefit of using Fedorda for object property and file storage is that, starting with version 6, it implements the [Oxford Common File Layout](https://ocfl.io/) (OCFL), which is "an application-independent approach to the storage of digital information in a structured, transparent, and predictable manner [...] designed to promote long-term object management best practices within digital repositories." Fedora also provides additional services that support Islandora's digital preservation capabilities, such as checksum generation, which is used by Islandora Riprap (more on that below).
 
 ### Islandora FITS
 
