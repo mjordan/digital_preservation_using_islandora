@@ -1,4 +1,4 @@
-# Digital Preservation Using Islandora 8
+# Digital Preservation Using Islandora 2
 
 ## Overview
 
@@ -12,6 +12,7 @@ As a digital asset management system (DAMS), Islandora provides a wide range of 
 | Islandora Bagger | Generates Bags for Islandora objects and media. The accompanying Islandora Bagger Integration module provides additional functionality. |
 | Islandora PREMIS | Combines data from a number of sources (including Ripap and FITS) such that it conforms with the PREMIS preservation metadata standard. |
 | Islandora Repository Reports | Provides a graphical breakdown of the media types (MIME type or PRONOM PUID) in use in an Islandora repository, plus some other useful reports. |
+| Various | Provides management of persistent IDs/URLs for Islandora content. |
 
 These features not only add value to Islandora's storage and managment functionality, they enable Islandora to integrate with other systems that specialize in digital preservation. For example, it is possible to:
 
@@ -157,6 +158,12 @@ Islandora PREMIS is currently the least mature of Islandora's preservation featu
 An important aspect of repository management is being able to determine what types of files are in a repository. This information is invaluable when determining how many files in the repository are in formats that are at some risk (e.g., the formats are becoming less commonly used and are therefore at risk of becoming obsolete), or when planning for format migrations. The [Islandora Repository Reports](https://github.com/mjordan/islandora_repository_reports) module provides this information using multiple definitions of "format", specifically, [MIME type](https://en.wikipedia.org/wiki/Media_type) and [PRONOM PUID](https://en.wikipedia.org/wiki/PRONOM). It presents this information as a pie chart that allows repository administrators to see at a glance how many files of each format exist in their repositories:
 
 ![Media formats report](docs/images/media_report.png)
+
+### Persistent Identifiers and URLs
+
+https://github.com/discoverygarden/dgi_actions
+https://github.com/mjordan/persistent_identifiers
+https://github.com/mjordan/larkm_integration
 
 ### Normalization
 
